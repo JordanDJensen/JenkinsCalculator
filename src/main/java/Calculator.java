@@ -40,7 +40,7 @@ class Calculator {
      */
     int fibonacciNumberFinder(int n){
 
-        if (n <= 1)
+        if (n <= 2)
             return n;
         return fibonacciNumberFinder(n - 1) + fibonacciNumberFinder(n - 2);
     }
