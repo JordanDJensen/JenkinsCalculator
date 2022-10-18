@@ -66,8 +66,8 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
-        String result = n + UUID.nameUUIDFromBytes(n.getBytes()).toString();
-        return result;
+
+        return n + UUID.randomUUID().toString();;
     }
 
 
