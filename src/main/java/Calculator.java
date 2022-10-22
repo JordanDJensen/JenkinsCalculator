@@ -24,7 +24,7 @@ class Calculator {
 
 
     /*
-    Return the n'th number in the fibonacci sequence
+    Returns the n'th number in the fibonacci sequence
     https://en.wikipedia.org/wiki/Fibonacci_number
     Example below
     n = x
