@@ -39,12 +39,12 @@ public class Main {
 
        System.out.println("Result: " + cal.divide(a, b));
        break;
-     case "fibonacciNumberFinder":
+     case "fibonacci":
        a = scan.nextInt();
 
        System.out.println("Result: " + cal.fibonacciNumberFinder(a));
        break;
-     case "intToBinaryNumber":
+     case "binary":
        a = scan.nextInt();
 
        System.out.println("Result: " + cal.intToBinaryNumber(a));
