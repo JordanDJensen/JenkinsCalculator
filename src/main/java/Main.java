@@ -19,35 +19,35 @@ public class Main {
         a = scan.nextInt();
         b = scan.nextInt();
 
-       System.out.println(cal.add(a, b));
+       System.out.println("Result: " + cal.add(a, b));
        break;
      case "subtract":
         a = scan.nextInt();
         b = scan.nextInt();
 
-       System.out.println(cal.subtract(a, b));
+       System.out.println("Result: " + cal.subtract(a, b));
        break;
      case "multiply":
        a = scan.nextInt();
        b = scan.nextInt();
 
-       System.out.println(cal.multiply(a, b));
+       System.out.println("Result: " + cal.multiply(a, b));
        break;
      case "divide":
        a = scan.nextInt();
        b = scan.nextInt();
 
-       System.out.println(cal.divide(a, b));
+       System.out.println("Result: " + cal.divide(a, b));
        break;
      case "fibonacciNumberFinder":
        a = scan.nextInt();
 
-       System.out.println(cal.fibonacciNumberFinder(a));
+       System.out.println("Result: " + cal.fibonacciNumberFinder(a));
        break;
      case "intToBinaryNumber":
        a = scan.nextInt();
 
-       System.out.println(cal.intToBinaryNumber(a));
+       System.out.println("Result: " + cal.intToBinaryNumber(a));
        break;
 
       default:
